@@ -1,14 +1,14 @@
 # Pac-Man Search
 
-This is a program that trains an AI agent to play the classic arcade game of Pac-Man, developed by [UC Berkeley College](http://ai.berkeley.edu). Its purpose is to demonstrate the use of map-searching algorithms and heuristics - 'heuristic' being a term that simply means a method of solving a problem.
+This is my implementation of a program that trains an AI agent to play the classic arcade game of Pac-Man, developed by [UC Berkeley College](http://ai.berkeley.edu). Its purpose is to demonstrate the use of map-searching algorithms and heuristics - 'heuristic' being a term that simply means a method of solving a problem.
 
 ### Description
 
-The parts of the code intended to be filled out by the user are in `search.py` and `searchAgents.py`, in sections marked `"*** YOUR CODE HERE ***"`.
+The parts of the code completed by me are in `search.py` and `searchAgents.py`, in sections marked `"*** YOUR CODE HERE ***"`.
 
 `search.py` contains four different algorithms used by AIs to search simulated spaces:
 
-- Depth-first search, in which a branch of a search tree is chosen and explored branch-by-branch along a sequence of nodes until an end is reached, and the search starts over from the root to follow a new path of branches.
+- Depth-first search, in which a branch of a search tree is chosen and explored branch-by-branch along a sequence of nodes until an end is reached, and the search starts over from the root to arefollow a new path of branches.
 
 - Breadth-first search, in which all nodes on one level of a search tree are explored before moving along to the nodes on the next level.
 
