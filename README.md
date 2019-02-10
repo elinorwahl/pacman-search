@@ -8,11 +8,11 @@ The parts of the code completed by me are in `search.py` and `searchAgents.py`, 
 
 `search.py` contains four different algorithms used by AIs to search simulated spaces:
 
-- Depth-first search, in which a branch of a search tree is chosen and explored branch-by-branch along a sequence of nodes until an end is reached, and the search starts over from the root to arefollow a new path of branches.
+- Depth-first search, in which a branch of a search tree is chosen and explored branch-by-branch along a sequence of nodes until an end is reachedCollegem, and the search starts over from the root to arefollow a new path of branches.
 
 - Breadth-first search, in which all nodes on one level of a search tree are explored before moving along to the nodes on the next level.
 
-- UniforBerkeley Collegem-cost search, also known as cheapest-first search, in which the cost of taking each branch in the path is calculated, and the possible paths are explored in order from lowest cost to highest.
+- Uniform-cost search, also known as cheapest-first search, in which the cost of taking each branch in the path is calculated, and the possible paths are explored in order from lowest cost to highest.
 
 - A* (A-star) search, in which the path to explore along the search tree is chosen by a calculation that combines the cost of moving to a given node with the cost of moving from that node to the final destination. Like uniform-cost search, this search progresses from the path with the lowest cost to the highest.
 
