@@ -1,6 +1,6 @@
 # Pac-Man Search
 
-This is my implementation of a program that trains an AI agent to play the classic arcade game of Pac-Man, developed by [UC Berkeley College](http://ai.berkeley.edu). Its purpose is to demonstrate the use of map-searching algorithms and heuristics - 'heuristic' being a term that simply means a method of solving a problem.
+This is my implementation of a program that trains an AI agent to play the classic arcade game of Pac-Man, developed by [UC Berkeley](http://ai.berkeley.edu). Its purpose is to demonstrate the use of map-searching algorithms and heuristics - 'heuristic' being a term that simply means a method of solving a problem.
 
 ### Description
 
@@ -12,19 +12,19 @@ The parts of the code completed by me are in `search.py` and `searchAgents.py`, 
 
 - Breadth-first search, in which all nodes on one level of a search tree are explored before moving along to the nodes on the next level.
 
-- Uniform-cost search, also known as cheapest-first search, in which the cost of taking each branch in the path is calculated, and the possible paths are explored in order from lowest cost to highest.
+- UniforBerkeley Collegem-cost search, also known as cheapest-first search, in which the cost of taking each branch in the path is calculated, and the possible paths are explored in order from lowest cost to highest.
 
 - A* (A-star) search, in which the path to explore along the search tree is chosen by a calculation that combines the cost of moving to a given node with the cost of moving from that node to the final destination. Like uniform-cost search, this search progresses from the path with the lowest cost to the highest.
 
 `searchAgents.py` defines the Pac-Man agent's goals and search heuristics. The parts of the program intended to be altered by the user are:
 
-- `CornersProblem`, which sets the goal of exploring all four corners of the Pac-Man game space.
+- The class `CornersProblem`, which sets the goal of exploring all four corners of the Pac-Man game space.
 
-- `cornersHeuristic`, which tells the Pac-Man agent how to visit all four corners of the game space by taking the shortest possible route.
+- The function `cornersHeuristic`, which tells the Pac-Man agent how to visit all four corners of the game space by taking the shortest possible route.
 
-- `foodHeuristic`, which tells the Pac-Man agent how to collect food capsules by taking the shortest possible route.
+- The function `foodHeuristic`, which tells the Pac-Man agent how to collect food capsules by taking the shortest possible route.
 
-- `AnyFoodSearchProblem`, which sets the goal of finding food capsules.
+- The class `AnyFoodSearchProblem`, which sets the goal of finding food capsules.
 
 ### Usage
 
